@@ -15,14 +15,97 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 
     <!-- Titel en favicon-->
-    <title>porto2.0</title>
+    <title>Menukaart</title>
     <link rel="shortcut icon" href="./assets/img/favicon.ico">
 
 </head>
 <body>
     <header>
-        <h1>cheems was here</h1>
+        <nav>
+            <a href="#dranken">dranken</a> |
+            <a href="#voorgerechten">voorgerechten</a> |
+            <a href="#hoofdgerechten">hoofdgerechten</a> |
+            <a href="#nagerechten">nagerechten</a> |
+            <a href="#login">login</a>
+        </nav>
     </header>
     
+    <main>
+        <div>
+            kaas
+        </div>
+        <div>
+            vlees
+        </div>
+        <div>
+            kaas
+        </div>
+        <div>
+            vlees
+        </div>
+        <div>
+            kaas
+        </div>
+        <div>
+            vlees
+        </div>
+        <div>
+            kaas
+        </div>
+        <div>
+            vlees
+        </div>
+        <div>
+            kaas
+        </div>
+        <div>
+            vlees
+        </div>
+        <div>
+            kaas
+        </div>
+        <div>
+            vlees
+        </div>
+        <div>
+            kaas
+        </div>
+        <div>
+            vlees
+        </div>
+        <div>
+            kaas
+        </div>
+        <div>
+            vlees
+        </div>
+        <div>
+            kaas
+        </div>
+        <div>
+            vlees
+        </div>
+        <div>
+            kaas
+        </div>
+        <div>
+            vlees
+        </div>
+        <div>
+            popen
+        </div>
+        <div>
+            popen
+        </div>
+        <div>
+            popen
+        </div>
+    </main>
+
+
+
+    <footer>
+        This website was made by Boris van Maaren.
+    </footer>
 </body>
 </html>
