@@ -55,7 +55,7 @@ main {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 100%;
     flex-wrap: wrap;
 }
@@ -71,5 +71,5 @@ main div {
 footer {
     background-color: rgba(0, 0, 0, 0.51);
     padding: 3px;
-    
+
 }

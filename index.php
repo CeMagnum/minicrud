@@ -1,4 +1,19 @@
 <!DOCTYPE html>
+
+
+<?php
+$servername = "localhost";
+try {
+  $conn = new PDO("mysql:host=$servername;dbname=minicrud");
+  // set the PDO error mode to exception
+  $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+  echo "Connected successfully";
+} catch(PDOException $e) {
+  echo "Connection failed: " . $e->getMessage();
+}
+ ?>
+
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -31,75 +46,8 @@
     </header>
     
     <main>
-        <div>
-            kaas
-        </div>
-        <div>
-            vlees
-        </div>
-        <div>
-            kaas
-        </div>
-        <div>
-            vlees
-        </div>
-        <div>
-            kaas
-        </div>
-        <div>
-            vlees
-        </div>
-        <div>
-            kaas
-        </div>
-        <div>
-            vlees
-        </div>
-        <div>
-            kaas
-        </div>
-        <div>
-            vlees
-        </div>
-        <div>
-            kaas
-        </div>
-        <div>
-            vlees
-        </div>
-        <div>
-            kaas
-        </div>
-        <div>
-            vlees
-        </div>
-        <div>
-            kaas
-        </div>
-        <div>
-            vlees
-        </div>
-        <div>
-            kaas
-        </div>
-        <div>
-            vlees
-        </div>
-        <div>
-            kaas
-        </div>
-        <div>
-            vlees
-        </div>
-        <div>
-            popen
-        </div>
-        <div>
-            popen
-        </div>
-        <div>
-            popen
-        </div>
+        <?php foreach($result as $i)
+        {echo "<div>".$result."</div>";}?>
     </main>
 
 
