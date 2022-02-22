@@ -17,10 +17,12 @@
     <!-- Titel en favicon-->
     <title>porto2.0</title>
     <link rel="shortcut icon" href="./assets/img/favicon.ico">
-    
+
 </head>
 <body>
-
+    <header>
+        <h1>cheems was here</h1>
+    </header>
     
 </body>
 </html>
