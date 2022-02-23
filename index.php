@@ -48,6 +48,17 @@ try {
     <main>
         <?php foreach($result as $i)
         {echo "<div>".$result."</div>";}?>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
     </main>
 
 
