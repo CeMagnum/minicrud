@@ -3,8 +3,10 @@
 
 <?php
 $servername = "localhost";
+
 try {
-  $conn = new PDO("mysql:host=$servername;dbname=minicrud");
+   // new PDO('mysql:host=localhost;dbname=test', $user, $pass);
+  $conn = new PDO("mysql:host=$servername;dbname=project_foodcards", "root", "");
   // set the PDO error mode to exception
   $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
   echo "Connected successfully";
@@ -46,8 +48,14 @@ try {
     </header>
     
     <main>
-        <?php foreach($result as $i)
-        {echo "<div>".$result."</div>";}?>
+        <?php
+        $stm = $conn->query("SELECT * FROM menukaart");
+
+        $result = $stm->fetchAll(PDO::FETCH_ASSOC);
+        // var_dump($result);
+        foreach($result as $i)
+        {echo "<div>".$i['ID']."<br>".$i['naam']."<br><img scr=".$i['imgsource']." alt=".$i['beschrijving']."><br>Categorie: ".$i['categorie']."<br>".$i['beschrijving']."</div>";}?>
+        <!-- <div></div>
         <div></div>
         <div></div>
         <div></div>
@@ -57,12 +65,11 @@ try {
         <div></div>
         <div></div>
         <div></div>
-        <div></div>
-        <div></div>
+        <div></div> -->
     </main>
 
 
-
+<img src="" alt="">
     <footer>
         This website was made by Boris van Maaren.
     </footer>
