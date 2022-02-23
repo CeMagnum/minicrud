@@ -27,6 +27,7 @@
 <body>
     <header>
         <nav>
+            <a href="index.php">Home</a> |
             <a href="index.php?category=dranken">dranken</a> |
             <a href="index.php?category=voorgerechten">voorgerechten</a> |
             <a href="index.php?category=hoofdgerechten">hoofdgerechten</a> |
@@ -40,7 +41,6 @@
 $servername = "localhost";
 
 try {
-   // new PDO('mysql:host=localhost;dbname=test', $user, $pass);
   $conn = new PDO("mysql:host=$servername;dbname=project_foodcards", "root", "");
   $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
   echo "Connected successfully";
