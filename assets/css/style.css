@@ -8,6 +8,7 @@
     font-family: 'Roboto Condensed', sans-serif;
     scroll-behavior: smooth;
     text-align: center;
+    animation: fadein 1s;
 }
 
 *::-webkit-scrollbar {
@@ -37,6 +38,10 @@ header nav a {
     transition: padding 2s;
 }
 
+h2 {
+    margin-bottom: -1rem !important;
+}
+
 a {
     text-decoration: none;
 }
@@ -58,10 +63,13 @@ main {
 
 main div {
     width: 20%;
-    height: 50vh;
+    min-height: 50vh;
+    height: fit-content;
     margin: 1rem;
     padding: 1rem;
     background-color: rgba(0, 0, 0, 0.51);
+    border-radius: 5px;
+    text-transform: capitalize;
 }
 
 footer {
@@ -69,3 +77,21 @@ footer {
     padding: 3px;
 
 }
+
+main div img {
+    width: 75%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+
+/* animaties -------------------------------------------*/
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }

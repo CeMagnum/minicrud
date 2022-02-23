@@ -1,19 +1,7 @@
 <!DOCTYPE html>
 
 
-<?php
-$servername = "localhost";
 
-try {
-   // new PDO('mysql:host=localhost;dbname=test', $user, $pass);
-  $conn = new PDO("mysql:host=$servername;dbname=project_foodcards", "root", "");
-  // set the PDO error mode to exception
-  $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-  echo "Connected successfully";
-} catch(PDOException $e) {
-  echo "Connection failed: " . $e->getMessage();
-}
- ?>
 
 
 <html lang="en">
@@ -45,6 +33,23 @@ try {
             <a href="#nagerechten">nagerechten</a> |
             <a href="#login">login</a>
         </nav>
+        
+
+
+        <?php
+$servername = "localhost";
+
+try {
+   // new PDO('mysql:host=localhost;dbname=test', $user, $pass);
+  $conn = new PDO("mysql:host=$servername;dbname=project_foodcards", "root", "");
+  $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+  echo "Connected successfully";
+} catch(PDOException $e) {
+  echo "Connection failed: " . $e->getMessage();
+}
+ ?>
+
+
     </header>
     
     <main>
@@ -54,8 +59,7 @@ try {
         $result = $stm->fetchAll(PDO::FETCH_ASSOC);
         // var_dump($result);
         foreach($result as $i)
-        {echo "<div>".$i['ID']."<br>".$i['naam']."<br><img scr=".$i['imgsource']." alt=".$i['beschrijving']."><br>Categorie: ".$i['categorie']."<br>".$i['beschrijving']."</div>";}?>
-        <!-- <div></div>
+        {echo "<div><h2>".$i['ID']."<h2><br>".$i['naam']."<br><img src=\"".$i['imgsource']."\" alt='".$i['beschrijving']."' /><br>Categorie: ".$i['categorie']."<br>".$i['beschrijving']."</div>";}?>
         <div></div>
         <div></div>
         <div></div>
@@ -65,7 +69,23 @@ try {
         <div></div>
         <div></div>
         <div></div>
-        <div></div> -->
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+
     </main>
 
 
