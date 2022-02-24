@@ -1,5 +1,5 @@
 <?php include('header.php');?>
-<?php var_dump($_GET);?>
+<?php //var_dump($_GET);?>
     <main>
         <?php
         $stm = $conn->prepare("SELECT * FROM menukaart WHERE ID = :product_id");
@@ -8,9 +8,9 @@
 
 
         $result = $stm->fetchAll(PDO::FETCH_ASSOC);
-         var_dump($result);
-        //foreach($result as $i)
-        //{echo "<div><h2>".$i['ID']."<h2><br>".$i['naam']."<br><img src=\"".$i['imgsource']."\" alt='".$i['beschrijving']."' /><br>Categorie: ".$i['categorie']."<br>".$i['beschrijving']."</div>";}?>
+        // var_dump($result);
+        foreach($result as $i)
+        {echo "<div><h2>".$i['prijs']."<h2><br>".$i['naam']."<br><img src=\"".$i['imgsource']."\" alt='".$i['beschrijving']."' /><br>Categorie: ".$i['categorie']."<br>".$i['beschrijving']."</div>";}?>
 
     </main>
 

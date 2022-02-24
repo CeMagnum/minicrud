@@ -8,7 +8,7 @@
     font-family: 'Roboto Condensed', sans-serif;
     scroll-behavior: smooth;
     text-align: center;
-    animation: fadein 1s;
+    /* animation: fadein 1s; */
 }
 
 *::-webkit-scrollbar {
