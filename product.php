@@ -11,6 +11,7 @@
         // var_dump($result);
         foreach($result as $i)
         {echo "<div><h2>".$i['prijs']."<h2><br>".$i['naam']."<br><img src=\"".$i['imgsource']."\" alt='".$i['beschrijving']."' /><br>Categorie: ".$i['categorie']."<br>".$i['beschrijving']."</div>";}?>
+        
 
     </main>
 

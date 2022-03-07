@@ -27,7 +27,7 @@
             <a href="index.php?category=voorgerechten">voorgerechten</a> |
             <a href="index.php?category=hoofdgerechten">hoofdgerechten</a> |
             <a href="index.php?category=nagerechten">nagerechten</a> |
-            <a href="#login">login</a>
+            <a href="create.php">create</a>
         </nav>
         
 <?php
