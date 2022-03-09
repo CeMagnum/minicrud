@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
         // $test = $conn->query($sql);
         // var_dump($test);
 
-        $conn->prepare($sql)->execute($test);
+        $conn->prepare($sql)->execute();
     } else {
         echo 'idk what happened';
         // var_dump($test);
@@ -35,9 +35,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 
 // $naam = $_POST['voornaam']
 
-if (isset($_POST['knop'])) {
-    $naam = $_POST['voornaam'];
-}
+// if (isset($_POST['knop'])) {
+//     $naam = $_POST['voornaam'];
+// }
 
 
 
