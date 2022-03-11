@@ -11,12 +11,21 @@
         // var_dump($result);
         foreach($result as $i)
         {echo "<div><h2>".$i['prijs']."<h2><br>".$i['naam']."<br><img src=\"".$i['imgsource']."\" alt='".$i['beschrijving']."' /><br>Categorie: ".$i['categorie']."<br>".$i['beschrijving']."</div>";}?>
-        <?php include('form.php');?>
-        <?php var_dump($result);?>
-        <?php  ?>
-        <?php $sql = "UPDATE $result SET lastname='Doe';" ?>
-        <a onclick="DeleteConfirm()">Delete</a>
+        <form method="post" action="create.php">
+            <input type="text" name="prijs"         placeholder="Prijs (double)">
+            <input type="text" name="naam"          placeholder="Naam (varchar)">
+            <input type="text" name="imgsource"     placeholder="Locatie afbeelding (varchar)">
+            <input type="text" name="categorie"     placeholder="Categorie (varchar)">
+            <input type="text" name="beschrijving"  placeholder="Beschrijving (varchar)">
+        </form>
+        <form action="verwijder.php" method="POST">
+            <input type="text" value="<?php echo $_GET['product_id']?>" name="product_id" />
+    <button type="submit" name="verwijderItem" value="Verwijder item">Delete</button>
+</form>
+        <?php #$sql = "UPDATE $result SET lastname='Doe';" ?>
         <p>ik wil ook kaas ik ben ook een klant</p>
+
+
     </main>
 
     <?php include('footer.php');?>
