@@ -18,14 +18,17 @@
             <input type="text" name="categorie"     placeholder="Categorie (varchar)">
             <input type="text" name="beschrijving"  placeholder="Beschrijving (varchar)">
         </form>
+        <?php #$sql = "UPDATE $result SET lastname='Doe';" ?>
+
+
+
+
+
+        
         <form action="verwijder.php" method="POST">
             <input type="text" value="<?php echo $_GET['product_id']?>" name="product_id" />
     <button type="submit" name="verwijderItem" value="Verwijder item">Delete</button>
 </form>
-        <?php #$sql = "UPDATE $result SET lastname='Doe';" ?>
-        <p>ik wil ook kaas ik ben ook een klant</p>
-
-
     </main>
 
     <?php include('footer.php');?>
