@@ -16,6 +16,7 @@
         <?php  ?>
         <?php $sql = "UPDATE $result SET lastname='Doe';" ?>
         <a onclick="DeleteConfirm()">Delete</a>
+        <p>ik wil ook kaas ik ben ook een klant</p>
     </main>
 
     <?php include('footer.php');?>
