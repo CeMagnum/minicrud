@@ -12,6 +12,10 @@
         foreach($result as $i)
         {echo "<div><h2>".$i['prijs']."<h2><br>".$i['naam']."<br><img src=\"".$i['imgsource']."\" alt='".$i['beschrijving']."' /><br>Categorie: ".$i['categorie']."<br>".$i['beschrijving']."</div>";}?>
         <?php include('form.php');?>
+        <?php var_dump($result);?>
+        <?php  ?>
+        <?php $sql = "UPDATE $result SET lastname='Doe';" ?>
+        <a onclick="DeleteConfirm()">Delete</a>
     </main>
 
     <?php include('footer.php');?>
