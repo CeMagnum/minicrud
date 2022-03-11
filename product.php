@@ -24,9 +24,9 @@
 
 
 
-        
+
         <form action="verwijder.php" method="POST">
-            <input type="text" value="<?php echo $_GET['product_id']?>" name="product_id" />
+            <input class="onzichtbaar" type="text" value="<?php echo $_GET['product_id']?>" name="product_id" />
     <button type="submit" name="verwijderItem" value="Verwijder item">Delete</button>
 </form>
     </main>
