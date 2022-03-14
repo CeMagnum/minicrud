@@ -7,6 +7,9 @@
         $result = $stm->fetchAll(PDO::FETCH_ASSOC);
         foreach($result as $i)
         {echo "<div><h2>".$i['prijs']."<h2><br>".$i['naam']."<br><img src=\"".$i['imgsource']."\" alt='".$i['beschrijving']."' /><br>Categorie: ".$i['categorie']."<br>".$i['beschrijving']."</div>";}?>
+
+
+        <!-- BEWERKINGS FORM -->
         <form method="POST" action="edit.php">
             <input type="text" name="prijs"         placeholder="Prijs (double)">
             <input type="text" name="naam"          placeholder="Naam (varchar)">
@@ -16,10 +19,9 @@
             <input class="onzichtbaar" type="text" value="<?php echo $_GET['product_id']?>" name="product_id" />
             <button type="submit" name="editItem" value="Edit item">Push edit</button>
         </form>
-        <?php
-        
-        
-        ?>
+
+
+        <!-- VERWIJDERINGS FORM -->
         <form action="verwijder.php" method="POST">
             <input class="onzichtbaar" type="text" value="<?php echo $_GET['product_id']?>" name="product_id" />
             <button type="submit" name="verwijderItem" value="Verwijder item">Delete</button>

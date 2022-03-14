@@ -10,8 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
 
-    <!-- Import css en java -->
-    <script src="./assets/js/main.js" async></script>
+    <!-- Importeer css-->
     <link rel="stylesheet" href="./assets/css/style.css">
 
     <!-- Titel en favicon-->
@@ -29,16 +28,14 @@
             <a href="index.php?category=nagerechten">nagerechten</a> |
             <a href="create.php">create</a>
         </nav>
-        
-<?php
-    $servername = "localhost";
 
+<!-- DATABASE CONNECTIE -->
+<?php $servername = "localhost";
     try {
     $conn = new PDO("mysql:host=$servername;dbname=project_foodcards", "root", "");
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     echo "Connected successfully";
-    } catch(PDOException $e) {
-    echo "Connection failed: " . $e->getMessage();
-    }
-    ?>
+        } catch(PDOException $e) {
+    echo "Connection failed: " . $e->getMessage();}?>
+
     </header>
