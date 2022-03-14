@@ -21,28 +21,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
         echo "Vul alle velden in!";
     } else if (isset($_POST['knop'])) {
         echo 'Compleet!';
-        // $test = $conn->query($sql);
-        // var_dump($test);
-
         $conn->prepare($sql)->execute();
     } else {
         echo 'idk what happened';
-        // var_dump($test);
     }
 } else {
     echo "1";
 }
-
-?>
-    <?php include('footer.php');?>
-<?php 
-
-// $naam = $_POST['voornaam']
-
-// if (isset($_POST['knop'])) {
-//     $naam = $_POST['voornaam'];
-// }
-
-
-
-?>
+include('footer.php');?>

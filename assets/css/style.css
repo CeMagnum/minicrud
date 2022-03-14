@@ -8,6 +8,7 @@
     font-family: 'Roboto Condensed', sans-serif;
     scroll-behavior: smooth;
     text-align: center;
+    text-overflow: ellipsis;
     /* animation: fadein 1s; */
 }
 
@@ -84,7 +85,8 @@ main {
 
 main div {
     width: 20%;
-    min-height: 50vh;
+    min-width: 15rem;
+    min-height: 27rem;
     height: fit-content;
     margin: 1rem;
     padding: 1rem;
