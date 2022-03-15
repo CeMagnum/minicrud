@@ -19,13 +19,14 @@
 
 </head>
 <body>
-<div class="parallax"><header>
+<div class="prlx1"><header>
         <nav>
             <a href="index.php">Home</a> |
-            <a href="index.php?category=dranken">dranken</a> |
-            <a href="index.php?category=voorgerechten">voorgerechten</a> |
-            <a href="index.php?category=hoofdgerechten">hoofdgerechten</a> |
-            <a href="index.php?category=nagerechten">nagerechten</a> |
+            <a href="menukaart.php">Menukaart</a> |
+            <a href="menukaart.php?category=dranken">dranken</a> |
+            <a href="menukaart.php?category=voorgerechten">voorgerechten</a> |
+            <a href="menukaart.php?category=hoofdgerechten">hoofdgerechten</a> |
+            <a href="menukaart.php?category=nagerechten">nagerechten</a> |
             <a href="create.php">create</a>
         </nav></div>
     

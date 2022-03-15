@@ -1,5 +1,5 @@
     <footer>
-        This website was made by Boris van Maaren in collaboration with Grubhub.
+        Deze website is gemaakt door Boris van Maaren in samenwerking met thuisbezorgd.nl 
     </footer>
 </body>
 </html>

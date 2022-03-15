@@ -1,17 +1,46 @@
-<?php include('header.php');?>
-    <main>
-        <?php
-        if(isset($_GET['category'])){
-            $stm = $conn->prepare("SELECT * FROM menukaart WHERE categorie = :cat");
-            $stm->bindParam(":cat", $_GET['category'], PDO::PARAM_STR);
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
 
-        } else {
-            $stm = $conn->query("SELECT * FROM menukaart");
-        }
-        $stm->execute();
-        $result = $stm->fetchAll(PDO::FETCH_ASSOC);
-        foreach($result as $i)
-        {echo "<div><h2>".$i['prijs']."<h2><br>".$i['naam']."<br><img src=\"".$i['imgsource']."\" alt='".$i['beschrijving']."' /><br>Categorie: ".$i['categorie']."<br>".$i['beschrijving']."<a href=\"product.php?product_id=".$i['ID']."\"><br>CRUD</a></div>";}?>
+    <!-- Importeer css-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Titel en favicon-->
+    <title>Home</title>
+    <link rel="shortcut icon" href="./assets/img/favicon.ico">
+
+</head>
+<body>
+    <div class="prlx2"><header>
+        <nav id="n1">
+            <img src="assets\img\logo.png" alt="logo" id="logo">
+            <h1>Welkom bij sushi yama </h1>
+            <!-- <a href="menukaart.php">Menukaart</a> |
+            <a href="#overons">Over ons</a> -->
+        </nav>
+        <nav>
+            <a href="menukaart.php">Menukaart</a> |
+            <a href="#overons">Over ons</a>
+        </nav>
+        
+    </div>
+
+    <main>
+        
+        <article>
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore architecto sed, ut at modi perspiciatis, iure id ad saepe cum vitae voluptatem? Deleniti aliquid impedit officia eos suscipit enim maiores.</h1>
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quo ipsa praesentium omnis odio dolorum aspernatur nostrum illum porro sunt temporibus, voluptates repellendus deleniti fuga sint deserunt reiciendis doloribus dolores.</h1>
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore architecto sed, ut at modi perspiciatis, iure id ad saepe cum vitae voluptatem? Deleniti aliquid impedit officia eos suscipit enim maiores.</h1>
+        </article>
+        
     </main>
 
-    <?php include('footer.php');?>
+<?php include('footer.php')?>
