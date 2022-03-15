@@ -97,9 +97,9 @@ main {
 }
 
 article {
-    width: 100%;
-    background-color: #E2082D;
-    padding: 1rem;}
+    width:                  100%;
+    background-color:       #E2082D;
+    padding:                1rem;}
 
 
 
@@ -117,8 +117,8 @@ main div {
 
 
 footer {
-    background-color: black;
-    padding: 3px;}
+    background-color:   black;
+    padding:            3px;}
 
 
 
@@ -135,18 +135,18 @@ main div img {
 
 
 #logo {
-    width: 20%;
-    height: auto;
-    animation: fadein 1s;}
+    width:      20%;
+    height:     auto;
+    animation:  fadein 1s;}
 
 #n1 {
-    text-align: left;
-    display: flex;
+    text-align:     left;
+    display:        flex;
     flex-direction: row;}
 
 #n1 h1 {
-    margin-top: 1.5rem;
-    margin-left: 3rem;}
+    margin-top:     1.5rem;
+    margin-left:    3rem;}
 
 
 
