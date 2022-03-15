@@ -1,122 +1,138 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    color: white;
-    overflow-y: none;
-    scrollbar-width: none;
-    font-family: 'Roboto Condensed', sans-serif;
-    scroll-behavior: smooth;
-    text-align: center;
-    text-overflow: ellipsis;
-    /* animation: fadein 1s; */
-}
+    padding:            0;
+    margin:             0;
+    box-sizing:         border-box;
+    color:            white;
+    overflow-y:         none;
+    scrollbar-width:    none;
+    font-family:        'Roboto Condensed', sans-serif;
+    scroll-behavior:    smooth;
+    text-align:         center;
+    text-overflow:      ellipsis;
+    /* animation: fadein 1s; */}
 
-*::-webkit-scrollbar {
-    display: none;
-}
+
+
+*::-webkit-scrollbar {display: none;}
+
+
 
 form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 100%;
-    flex-wrap: wrap;
-}
+    display:            flex;
+    flex-direction:     column;
+    align-items:        center;
+    justify-content:    space-evenly;
+    width:              100%;
+    flex-wrap:          wrap;}
+
+
 
 input, button, option, select {
     background-color: rgba(0, 0, 0, 0.51);
-    width: 25%;
-    padding-sides: 5rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    margin-top: 1.11rem;
-    margin-bottom: 1.11rem;
-    font-size: xx-large;
-}
+    width:              25%;
+    padding-sides:      5rem;
+    padding-top:        1rem;
+    padding-bottom:     1rem;
+    margin-top:         1.11rem;
+    margin-bottom:      1.11rem;
+    font-size:          xx-large;}
 
-body {
-    background-color: purple;
-}
+
+
+body {background-color: purple;}
+
+
 
 header {
     background-color: rgba(0, 0, 0, 0.51);
-    width: 100vw;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-}
+    width:              100vw;
+    padding-top:        1rem;
+    padding-bottom:     1rem;
+    position:           -webkit-sticky;
+    position:           sticky;
+    top:                0;}
+
+
 
 nav {
-    font-size: xx-large;
-    text-transform: uppercase;
-}
+    font-size:      xx-large;
+    text-transform: uppercase;}
+
+
 
 header nav a {
-    padding: 2px;
-    transition: padding 2s;
-}
+    padding:    2px;
+    transition: padding 2s;}
 
-h2 {
-    margin-bottom: -1rem !important;
-}
 
-a {
-    text-decoration: none;
-}
+
+h2 {margin-bottom: -1rem !important;}
+
+
+
+a {text-decoration: none;}
+
+
 
 header nav a:hover {
     transition: color 2s;
     transition: padding 0.5s;
-    padding: 30px;
-}
+    padding:    30px;}
+
+
 
 main {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 100%;
-    flex-wrap: wrap;
-}
+    display:            flex;
+    flex-direction:     row;
+    align-items:        center;
+    justify-content:    space-evenly;
+    width:              100%;
+    flex-wrap:          wrap;}
+
+
 
 main div {
-    width: 20%;
-    min-width: 15rem;
-    min-height: 27rem;
-    height: fit-content;
-    margin: 1rem;
-    padding: 1rem;
+    width:              20%;
+    min-width:          15rem;
+    min-height:         27rem;
+    height:             fit-content;
+    margin:             1rem;
+    padding:            1rem;
     background-color: rgba(0, 0, 0, 0.51);
-    border-radius: 5px;
-    text-transform: capitalize;
-}
+    border-radius:      5px;
+    text-transform:     capitalize;}
+
+
 
 footer {
     background-color: rgba(0, 0, 0, 0.51);
-    padding: 3px;
-}
+    padding: 3px;}
+
+
 
 main div img {
-    width: 75%;
-    height: auto;
-    border-radius: 5px;
-    margin-top: 5px;
-}
+    width:          75%;
+    height:         auto;
+    border-radius:  5px;
+    margin-top:     5px;}
 
-.onzichtbaar {
-    display: none;
-}
+
+
+.onzichtbaar {display: none;}
+
+
+
+.parallax {
+    background-image:       url("parallax.jpg");
+    min-height:             500px; 
+    background-attachment:  fixed;
+    background-position:    center;
+    background-repeat:      no-repeat;
+    background-size:        cover;}
+
+
 
 /* animaties -------------------------------------------*/
 @keyframes fadein {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;}
-    }
+    0% {opacity: 0;}
+    100% {opacity: 1;}}
