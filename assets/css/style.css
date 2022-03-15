@@ -39,7 +39,7 @@ input, button, option, select {
 
 
 
-body {background-color: purple;}
+/* body {background-color: purple;} */
 
 
 
@@ -123,7 +123,7 @@ main div img {
 
 
 .parallax {
-    background-image:       url("parallax.jpg");
+    background-image:       url("/assets/img/parralax.png");
     min-height:             500px; 
     background-attachment:  fixed;
     background-position:    center;

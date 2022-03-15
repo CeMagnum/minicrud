@@ -19,6 +19,7 @@
 
 </head>
 <body>
+<div class="parallax"></div>
     <header>
         <nav>
             <a href="index.php">Home</a> |
