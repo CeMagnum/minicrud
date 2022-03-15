@@ -29,14 +29,15 @@
         </nav>
         <nav>
             <a href="menukaart.php">Menukaart</a> |
-            <a href="#overons">Over ons</a>
+            <a href="article">Over ons</a>
         </nav>
 </header>
     </div>
     <article>
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore architecto sed, ut at modi perspiciatis, iure id ad saepe cum vitae voluptatem? Deleniti aliquid impedit officia eos suscipit enim maiores.</h1>
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quo ipsa praesentium omnis odio dolorum aspernatur nostrum illum porro sunt temporibus, voluptates repellendus deleniti fuga sint deserunt reiciendis doloribus dolores.</h1>
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore architecto sed, ut at modi perspiciatis, iure id ad saepe cum vitae voluptatem? Deleniti aliquid impedit officia eos suscipit enim maiores.</h1>
+        <h1>Welkom bij het beste Japans culinair restaurant in Nederland</h1>
+        <h2>kaas</h2>
+        <br><br>
+        <h2>vlees</h2>
     </article>
     <div class="prlx3"></div>
 

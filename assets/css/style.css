@@ -98,7 +98,6 @@ main {
 
 article {
     width: 100%;
-    /* margin-top: -50rem; */
     background-color: #E2082D;
     padding: 1rem;}
 
@@ -138,48 +137,37 @@ main div img {
 #logo {
     width: 20%;
     height: auto;
-    animation: fadein 1s;
-}
+    animation: fadein 1s;}
 
 #n1 {
     text-align: left;
     display: flex;
-    flex-direction: row;
-}
+    flex-direction: row;}
 
 #n1 h1 {
     margin-top: 1.5rem;
-    margin-left: 3rem;
-}
+    margin-left: 3rem;}
 
 
+
+.prlx1, .prlx2, .prlx3 {
+    background-color:       black;
+    background-attachment:  fixed;
+    background-position:    center;
+    background-repeat:      no-repeat;
+    background-size:        cover;}
 
 .prlx1 {
-    background-color:       black;
-    background-image:       url("../img/prlx1.png") !important;
-    min-height:             30rem; 
-    background-attachment:  fixed;
-    background-position:    center;
-    background-repeat:      no-repeat;
-    background-size:        cover;}
+    background-image: url("../img/prlx1.png") !important;
+    min-height: 30rem;}
 
 .prlx2 {
-    background-color:       black;
-    background-image:       url("../img/prlx2.png") !important;
-    min-height:             40rem; 
-    background-attachment:  fixed;
-    background-position:    center;
-    background-repeat:      no-repeat;
-    background-size:        cover;}    
+    background-image: url("../img/prlx2.png") !important;
+    min-height: 40rem;}    
 
 .prlx3 {
-    background-color:       black;
-    background-image:       url("../img/prlx3.png") !important;
-    min-height:             40rem; 
-    background-attachment:  fixed;
-    background-position:    center;
-    background-repeat:      no-repeat;
-    background-size:        cover;}
+    background-image: url("../img/prlx3.png") !important;
+    min-height: 40rem;}
 
 
 
