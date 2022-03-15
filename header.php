@@ -19,8 +19,7 @@
 
 </head>
 <body>
-<div class="parallax"></div>
-    <header>
+<div class="parallax"><header>
         <nav>
             <a href="index.php">Home</a> |
             <a href="index.php?category=dranken">dranken</a> |
@@ -28,7 +27,8 @@
             <a href="index.php?category=hoofdgerechten">hoofdgerechten</a> |
             <a href="index.php?category=nagerechten">nagerechten</a> |
             <a href="create.php">create</a>
-        </nav>
+        </nav></div>
+    
 
 <!-- DATABASE CONNECTIE -->
 <?php $servername = "localhost";

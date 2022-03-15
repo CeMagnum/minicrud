@@ -123,8 +123,9 @@ main div img {
 
 
 .parallax {
-    background-image:       url("/assets/img/parralax.png");
-    min-height:             500px; 
+    background-color:       black;
+    background-image:       url("../img/parralax.png") !important;
+    min-height:             30rem; 
     background-attachment:  fixed;
     background-position:    center;
     background-repeat:      no-repeat;
