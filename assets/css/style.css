@@ -54,7 +54,7 @@ header {
 
 
 
-nav {
+nav, article h1 {
     font-size:      xx-large;
     text-transform: uppercase;
     text-align:     left;}
@@ -118,7 +118,7 @@ main div {
 
 
 footer {
-    background-color: rgba(0, 0, 0, 0.51);
+    background-color: black;
     padding: 3px;}
 
 
@@ -171,6 +171,15 @@ main div img {
     background-position:    center;
     background-repeat:      no-repeat;
     background-size:        cover;}    
+
+.prlx3 {
+    background-color:       black;
+    background-image:       url("../img/prlx3.png") !important;
+    min-height:             40rem; 
+    background-attachment:  fixed;
+    background-position:    center;
+    background-repeat:      no-repeat;
+    background-size:        cover;}
 
 
 
