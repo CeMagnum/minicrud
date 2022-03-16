@@ -39,7 +39,7 @@ input, button, option, select {
 
 
 
-/* body {background-color: purple;} */
+body {background-color: #E2082D;}
 
 
 
@@ -54,11 +54,10 @@ header {
 
 
 
-nav, article h1 {
+nav, article h1, #n1 {
     font-size:      xx-large;
     text-transform: uppercase;
     text-align:     left;}
-
 
 
 header nav a {

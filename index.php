@@ -22,10 +22,7 @@
     <div class="prlx2"><header>
         <nav id="n1">
             <img src="assets\img\logo.png" alt="logo" id="logo">
-            <h1>Welkom bij sushi yama</h1>   
-
-            <!-- <a href="menukaart.php">Menukaart</a> |
-            <a href="#overons">Over ons</a> -->
+            <h1>Welkom bij sushi yama</h1>
         </nav>
         <nav>
             <a href="menukaart.php">Menukaart</a> |
@@ -35,9 +32,10 @@
     </div>
     <article>
         <h1>Welkom bij het beste Japans culinair restaurant in Nederland</h1>
-        <h2>kaas</h2>
+        <h2>faljjafjklajkfkla</h2><br><br>
+        <h2>locale_filter_matchesh</h2>
         <br><br>
-        <h2>vlees</h2>
+        
     </article>
     <div class="prlx3"></div>
 
