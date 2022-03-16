@@ -41,4 +41,4 @@
     </article>
     <div class="prlx3"></div>
 
-<?php include('/includes/footer.php')?>
+<?php include('footer.php')?>
