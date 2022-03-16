@@ -1,4 +1,4 @@
-<?php include('header.php');?>
+<?php include('/includes/header.php');?>
     <main>
         <?php
         $stm = $conn->prepare("SELECT * FROM menukaart WHERE ID = :product_id");
@@ -34,4 +34,4 @@
         </form>
     </main>
 
-    <?php include('footer.php');?>
+    <?php include('/includes/footer.php');?>
