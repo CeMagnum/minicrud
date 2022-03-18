@@ -11,7 +11,7 @@
         $stm->execute();
         $result = $stm->fetchAll(PDO::FETCH_ASSOC);
         foreach($result as $i)
-        {echo "<div><h2>¥ ".$i['prijs']."<h2><br>".$i['naam']."<br><img src=\"".$i['imgsource']."\" alt='".$i['beschrijving']."' /><br>Categorie: ".$i['categorie']."<br>".$i['beschrijving']."<a href=\"product.php?product_id=".$i['ID']."\"><br>CRUD</a></div>";}?>
+        {echo "<div><h2>€ ".$i['prijs']."<h2><br>".$i['naam']."<br><img src=\"".$i['imgsource']."\" alt='".$i['beschrijving']."' /><br>Categorie: ".$i['categorie']."<br>".$i['beschrijving']."<a href=\"product.php?product_id=".$i['ID']."\"><br>CRUD</a></div>";}?>
     </main>
 
     <?php include('footer.php');?>
