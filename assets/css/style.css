@@ -79,7 +79,19 @@ header nav a:hover {
     transition: padding 0.5s;
     padding:    30px;}
 
-
+input, select {
+    width: fit-content;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.51) !important;
+    background-color: transparent;
+    cursor: text;
+    }
 
 main {
     display:            flex;
