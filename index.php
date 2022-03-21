@@ -31,9 +31,10 @@
 </header>
     </div>
     <article>
-        <h1>Welkom bij het beste Japans culinair restaurant in Nederland</h1>
-        <h2>faljjafjklajkfkla</h2><br><br>
-        <h2>locale_filter_matchesh</h2>
+        <h1>Welkom bij het beste Japans culinair restaurant in Nederland</h1><br>
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo maxime ratione ipsum quae molestiae vitae. <br><br> soluta quibusdam nesciunt vero ipsa, et numquam officiis harum reprehenderit consectetur quis qui neque iure.<br>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, repudiandae corrupti Quos, facilis quia<br><br> suscipit reiciendis deleniti tempore expedita et, vel eius in temporibus iure. Aperiam repellat fuga obcaecati quas!
+        </h2>
         <br><br>
         
     </article>
