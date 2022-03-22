@@ -31,6 +31,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
         echo 'idk what happened';
     }
 } else {
-    echo "1";
+    echo "<br>";
 }
 include('footer.php');?>
