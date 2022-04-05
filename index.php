@@ -26,17 +26,31 @@
         </nav>
         <nav>
             <a href="menukaart.php">Menukaart</a> |
-            <a href="article">Over ons</a>
+            <a href="#overons">Over ons</a> |
+            <a href="#locaties">Locaties</a> |
+            <a href="#contact">Contact</a>
         </nav>
 </header>
     </div>
-    <article>
+    <article><br>
         <h1>Welkom bij het beste Japans culinair restaurant in Nederland</h1><br>
-        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo maxime ratione ipsum quae molestiae vitae. <br><br> soluta quibusdam nesciunt vero ipsa, et numquam officiis harum reprehenderit consectetur quis qui neque iure.<br>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, repudiandae corrupti Quos, facilis quia<br><br> suscipit reiciendis deleniti tempore expedita et, vel eius in temporibus iure. Aperiam repellat fuga obcaecati quas!
-        </h2>
+        <h2 id="overons">Over ons</h2><br>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo maxime ratione ipsum quae molestiae vitae. <br> soluta quibusdam nesciunt vero ipsa, et numquam officiis harum reprehenderit consectetur quis qui neque iure.<br>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, repudiandae corrupti Quos, facilis quia<br> suscipit reiciendis deleniti tempore expedita et, vel eius in temporibus iure. Aperiam repellat fuga obcaecati quas!
+        </h3><br>
+        <hr><br>
+        <h2 id="locaties">Locaties</h2><br>
+        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid illum nam animi, minima eligendi blanditiis<br> Sit ipsa eos doloribus quod autem repudiandae dicta facere, earum hic voluptates reiciendis libero quidem.</h3>
         <br><br>
-        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d313574.1888315404!2d4.900178904297939!3d52.119797699999985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c66f5005b7da51%3A0xe1f5cacfe988a8ee!2sYama%20Food%20BV!5e0!3m2!1sen!2snl!4v1649071677572!5m2!1sen!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <br><br><hr>
+        <br>
+        <h2 id="contact">Contact</h2><br>
+        <h3>Lorem ipsum dolor sit amet:<br>0123456789<br>Lorem ipsum dolor sit amet:<br>0123456789@mail.cum</h3>
+        <br><hr>
+        <br>
+        <a href="https://bit.ly/3K6PHFm">privacy policy</a>
+        <br>
     </article>
     <div class="prlx3"></div>
 

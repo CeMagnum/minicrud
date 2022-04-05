@@ -14,7 +14,6 @@
             <input type="text" name="prijs"         placeholder="Prijs (double)"                value="<?php echo $i['prijs']?>">
             <input type="text" name="naam"          placeholder="Naam (varchar)"                value="<?php echo $i['naam']?>">
             <input type="text" name="imgsource"     placeholder="Locatie afbeelding (varchar)"  value="<?php echo $i['imgsource']?>">
-            <!-- <input type="text" name="categorie"     placeholder="Categorie (varchar)"> -->
             <select name="categorie" id="categorie">
                 <option value="dranken">Dranken</option>
                 <option value="voorgerechten">Voorgerechten</option>

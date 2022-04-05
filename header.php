@@ -19,7 +19,7 @@
 
 </head>
 <body>
-<div class="prlx1"><header>
+<div class="prlx1" id="top"><header>
         <nav>
             <a href="index.php">Home</a> |
             <a href="menukaart.php">Menukaart</a> |

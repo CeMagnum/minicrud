@@ -145,6 +145,10 @@ main div img {
     margin-top:     5px;}
 
 
+hr {
+    width: 50%;
+    margin-left: 25%;
+}
 
 .onzichtbaar {display: none;}
 
