@@ -27,6 +27,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
     } else if (isset($_POST['knop'])) {
         echo 'Compleet!';
         $conn->prepare($sql)->execute();
+        header('Location: menukaart.php#gerechten');
+	    exit();
     } else {
         echo 'idk what happened';
     }

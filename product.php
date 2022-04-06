@@ -1,4 +1,4 @@
-<?php include('header.php');?>
+<?php include('header.php');?>0
     <main>
         <?php
         $stm = $conn->prepare("SELECT * FROM menukaart WHERE ID = :product_id");
@@ -24,7 +24,6 @@
             <input class="onzichtbaar" type="text" value="<?php echo $_GET['product_id']?>" name="product_id" />
             <button type="submit" name="editItem" value="Edit item">Push edit</button>
         </form>
-
 
         <!-- VERWIJDERINGS FORM -->
         <form action="verwijder.php" method="POST">

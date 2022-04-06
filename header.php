@@ -21,12 +21,12 @@
 <body>
 <div class="prlx1" id="top"><header>
         <nav>
-            <a href="index.php">Home</a> |
-            <a href="menukaart.php">Menukaart</a> |
-            <a href="menukaart.php?category=dranken">dranken</a> |
-            <a href="menukaart.php?category=voorgerechten">voorgerechten</a> |
-            <a href="menukaart.php?category=hoofdgerechten">hoofdgerechten</a> |
-            <a href="menukaart.php?category=nagerechten">nagerechten</a> |
+            <a href="index.php#gerechten">Home</a> |
+            <a href="menukaart.php#gerechten">Menukaart</a> |
+            <a href="menukaart.php?category=dranken#gerechten">dranken</a> |
+            <a href="menukaart.php?category=voorgerechten#gerechten">voorgerechten</a> |
+            <a href="menukaart.php?category=hoofdgerechten#gerechten">hoofdgerechten</a> |
+            <a href="menukaart.php?category=nagerechten#gerechten">nagerechten</a> |
             <a href="create.php">create</a>
         </nav></div>
     

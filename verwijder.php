@@ -5,4 +5,6 @@
             $stm->bindParam(":product_id", $_POST['product_id'], PDO::PARAM_INT);
             $stm->execute();
         }
+        header("Location: menukaart.php#gerechten");
+        exit();
 ?>
