@@ -1,4 +1,6 @@
-<?php include('header.php');?>
+<?php include('includes/header.php');
+include('sql/connect.php')
+?>
 <form method="post" action="create.php">
     <input type="text" name="prijs"         placeholder="Prijs (double)">
     <input type="text" name="naam"          placeholder="Naam (varchar)">
@@ -35,4 +37,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 } else {
     echo "<br>";
 }
-include('footer.php');?>
+include('includes/footer.php');?>

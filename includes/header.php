@@ -19,7 +19,8 @@
 
 </head>
 <body>
-<div class="prlx1" id="top"><header>
+<div class="prlx1" id="top">
+    <header>
         <nav>
             <a href="index.php#gerechten">Home</a> |
             <a href="menukaart.php#gerechten">Menukaart</a> |
@@ -28,18 +29,6 @@
             <a href="menukaart.php?category=hoofdgerechten#gerechten">hoofdgerechten</a> |
             <a href="menukaart.php?category=nagerechten#gerechten">nagerechten</a> |
             <a href="create.php">create</a>
-        </nav></div>
-    
-
-<!-- DATABASE CONNECTIE -->
-<?php $servername = "localhost";
-    try {
-    $conn = new PDO("mysql:host=$servername;dbname=project_foodcards", "root", "");
-    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    echo "";
-    // echo "Connected successfully";
-        } catch(PDOException $e) {
-    // echo "Connection failed: " . $e->getMessage();
-}   echo ""
-    ?>
-    </header>
+        </nav>
+    </header>   
+</div>

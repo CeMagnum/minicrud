@@ -1,4 +1,7 @@
-<?php include('header.php');?>0
+<?php
+include('includes/header.php');
+include('sql/connect.php')
+?>
     <main>
         <?php
         $stm = $conn->prepare("SELECT * FROM menukaart WHERE ID = :product_id");
@@ -10,7 +13,7 @@
 
 
         <!-- BEWERKINGS FORM -->
-        <form method="POST" action="edit.php">
+        <form method="POST" action="sql/edit.php">
             <input type="text" name="prijs"         placeholder="Prijs (double)"                value="<?php echo $i['prijs']?>">
             <input type="text" name="naam"          placeholder="Naam (varchar)"                value="<?php echo $i['naam']?>">
             <input type="text" name="imgsource"     placeholder="Locatie afbeelding (varchar)"  value="<?php echo $i['imgsource']?>">
@@ -26,10 +29,10 @@
         </form>
 
         <!-- VERWIJDERINGS FORM -->
-        <form action="verwijder.php" method="POST">
+        <form action="sql/verwijder.php" method="POST">
             <input class="onzichtbaar" type="text" value="<?php echo $_GET['product_id']?>" name="product_id" />
             <button type="submit" name="verwijderItem" value="Verwijder item">Delete</button>
         </form>
     </main>
 
-    <?php include('footer.php');?>
+    <?php include('includes/footer.php');?>
