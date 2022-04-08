@@ -11,7 +11,6 @@ include('sql/connect.php')
         foreach($result as $i)
         {echo "<div><h2>".$i['prijs']."<h2><br>".$i['naam']."<br><img src=\"".$i['imgsource']."\" alt='".$i['beschrijving']."' /><br>Categorie: ".$i['categorie']."<br>".$i['beschrijving']."</div>";}?>
 
-
         <!-- BEWERKINGS FORM -->
         <form method="POST" action="sql/edit.php">
             <input type="text" name="prijs"         placeholder="Prijs (double)"                value="<?php echo $i['prijs']?>">
