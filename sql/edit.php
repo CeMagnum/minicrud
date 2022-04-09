@@ -18,5 +18,4 @@ if (empty($prijs || $naam || $imgsource || $categorie || $beschrijving)) {
 }
 header("Location: ../menukaart.php#gerechten");
 exit();
-
 ?>

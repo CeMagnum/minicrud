@@ -14,7 +14,7 @@ include('sql/connect.php')
         <!-- BEWERKINGS FORM -->
         <form method="POST" action="sql/edit.php">
             <input type="text" name="prijs"         placeholder="Prijs (double)"                value="<?php echo $i['prijs']?>">
-            <input type="text" name="naam"          placeholder="Naam (varchar)"                value="<?php echo $i['naam']?>">
+            <input type="text" name="naam"          placeechholder="Naam (varchar)"                value="<?php echo $i['naam']?>">
             <input type="text" name="imgsource"     placeholder="Locatie afbeelding (varchar)"  value="<?php echo $i['imgsource']?>">
             <select name="categorie" id="categorie">
                 <option value="dranken">Dranken</option>

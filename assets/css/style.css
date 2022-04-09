@@ -64,9 +64,12 @@ nav, article h1, #n1 {
     text-transform: uppercase;
     text-align:     left;}
 
+nav {
+    margin-left: 1rem;
+}
 
 header nav a {
-    padding:    2px;
+    padding: 2px;
     transition: padding 2s;}
 
 

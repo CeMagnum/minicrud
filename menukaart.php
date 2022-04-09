@@ -2,7 +2,6 @@
 include('includes/header.php');
 include('sql/connect.php'); 
 ?>
-
     <main id="gerechten">
         <?php
         if(isset($_GET['category'])){
