@@ -1,6 +1,7 @@
 <?php
 include('includes/header.php');
-include('sql/connect.php')
+include('sql/connect.php');
+include('includes/session.php');
 ?>
     <main>
         <?php

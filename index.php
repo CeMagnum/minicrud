@@ -25,10 +25,11 @@
             <h1>Welkom bij sushi yama</h1>
         </nav>
         <nav>
-            <a href="menukaart.php">Menukaart</a> |
+            <a href="klantenmenukaart.php">Menukaart</a> |
             <a href="#overons">Over ons</a> |
             <a href="#locaties">Locaties</a> |
-            <a href="#contact">Contact</a>
+            <a href="#contact">Contact</a> |
+            <a href="loginp.php">Log in</a>
         </nav>
 </header>
     </div>

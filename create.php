@@ -1,6 +1,9 @@
-<?php include('includes/header.php');
-include('sql/connect.php')
+<?php 
+include('includes/header.php');
+include('sql/connect.php');
+include('includes/session.php');
 ?>
+
 <form method="post" action="create.php">
     <input type="text" name="prijs"         placeholder="Prijs (double)">
     <input type="text" name="naam"          placeholder="Naam (varchar)">
