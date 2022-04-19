@@ -36,7 +36,7 @@
     <article><br>
         <h1>Welkom bij het beste Japans culinair restaurant in Nederland</h1><br>
         <h2 id="overons">Over ons</h2><br>
-        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo maxime ratione ipsum quae molestiae vitae. <br> soluta quibusdam nesciunt vero ipsa, et numquam officiis harum reprehenderit consectetur quis qui neque iure.<br>
+        <h3>Boris is een guy. hij is een guy guy. ik typ wat dat een beetje lang is. hopelijk gebruikt boris dit als fill in/<br> soluta quibusdam nesciunt vero ipsa, et numquam officiis harum reprehenderit consectetur quis qui neque iure.<br>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, repudiandae corrupti Quos, facilis quia<br> suscipit reiciendis deleniti tempore expedita et, vel eius in temporibus iure. Aperiam repellat fuga obcaecati quas!
         </h3><br>
         <hr><br>
