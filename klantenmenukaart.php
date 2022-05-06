@@ -16,4 +16,5 @@ include('sql/connect.php');
         foreach($result as $i)
         {echo "<div><h2>€ ".$i['prijs']."<h2><br>".$i['naam']."<br><img src=\"".$i['imgsource']."\" alt='".$i['beschrijving']."' /><br>Categorie: ".$i['categorie']."<br>".$i['beschrijving']."<a href='bestel.php'><br>bestel</a></div>";}?>
     </main>
+    
     <?php include('includes/footer.php');?>
