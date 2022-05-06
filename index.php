@@ -41,7 +41,7 @@
         </h3><br>
         <hr><br>
         <h2 id="locaties">Locaties</h2><br>
-        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid illum nam animi, minima eligendi blanditiis<br> Sit ipsa eos doloribus quod autem repudiandae dicta facere, earum hic voluptates reiciendis libero quidem.</h3>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim distinctio tempora, veniam iste natus quos facere amet! Maxime, officiis aspernatur!<br> Sit ipsa eos doloribus quod autem repudiandae dicta facere, earum hic voluptates reiciendis libero quidem.</h3>
         <br><br>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d313574.1888315404!2d4.900178904297939!3d52.119797699999985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c66f5005b7da51%3A0xe1f5cacfe988a8ee!2sYama%20Food%20BV!5e0!3m2!1sen!2snl!4v1649071677572!5m2!1sen!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <br><br><hr>
